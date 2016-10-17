@@ -1,0 +1,25 @@
+<resources>
+    
+    <attr name="clockBg" format="color"/>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="clockBg">#ff00ff</item>
+    </style>
+
+    <style name="clock">
+        <item name="android:background">?attr/clockBg</item>
+        <item name="arrow_color">@color/colorPrimary</item>
+        <item name="hour_width">4dp</item>
+        <item name="hour_radius">25dp</item>
+        <item name="minute_width">2dp</item>
+        <item name="minute_radius">40dp</item>
+        <item name="second_width">1px</item>
+        <item name="second_radius">45dp</item>
+    </style>
+
+</resources>
